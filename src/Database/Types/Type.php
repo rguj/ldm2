@@ -1,8 +1,8 @@
 <?php
 
-namespace CodexShaper\DBM\Database\Types;
+namespace Rguj\LDM2\Database\Types;
 
-use CodexShaper\DBM\Database\Schema\SchemaManager;
+use Rguj\LDM2\Database\Schema\SchemaManager;
 use Doctrine\DBAL\Types\Type as DoctrineType;
 
 abstract class Type extends DoctrineType

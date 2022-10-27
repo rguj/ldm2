@@ -1,8 +1,8 @@
 <?php
 
-namespace CodexShaper\DBM\Facades;
+namespace Rguj\LDM2\Facades;
 
-use CodexShaper\DBM\Database\Drivers\Driver as DatabaseDriver;
+use Rguj\LDM2\Database\Drivers\Driver as DatabaseDriver;
 use Illuminate\Support\Facades\Facade;
 
 class Driver extends Facade

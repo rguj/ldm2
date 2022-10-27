@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\DBM\Commands;
+namespace Rguj\LDM2\Commands;
 
 use Illuminate\Console\Command;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\DBM\Database\Drivers;
+namespace Rguj\LDM2\Database\Drivers;
 
 class Driver
 {

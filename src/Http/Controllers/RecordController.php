@@ -1,14 +1,16 @@
 <?php
 
-namespace CodexShaper\DBM\Http\Controllers;
+namespace Rguj\LDM2\Http\Controllers;
 
-use CodexShaper\DBM\Database\Schema\Table;
-use CodexShaper\DBM\Facades\Driver;
-use CodexShaper\DBM\Facades\Manager as DBM;
-use CodexShaper\DBM\Traits\RecordRelationship;
-use CodexShaper\DBM\Traits\RecordTrait;
+use Rguj\LDM2\Database\Schema\Table;
+use Rguj\LDM2\Facades\Driver;
+use Rguj\LDM2\Facades\Manager as DBM;
+use Rguj\LDM2\Traits\RecordRelationship;
+use Rguj\LDM2\Traits\RecordTrait;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Config;
+
+use App\Http\Controllers\Controller;
 
 class RecordController extends Controller
 {
@@ -72,7 +74,7 @@ class RecordController extends Controller
      * Process data to store.
      *
      * @param \Illuminate\Http\Request $request
-     * @param \CodexShaper\DBM\Models\DBM_Object|\CodexShaper\DBM\Models\DBM_MongoObject $object
+     * @param \Rguj\LDM2\Models\DBM_Object|\Rguj\LDM2\Models\DBM_MongoObject $object
      *
      * @return object
      */
@@ -151,7 +153,7 @@ class RecordController extends Controller
      * Process Data to update.
      *
      * @param \Illuminate\Http\Request $request
-     * @param \CodexShaper\DBM\Models\DBM_Object|\CodexShaper\DBM\Models\DBM_MongoObject $object
+     * @param \Rguj\LDM2\Models\DBM_Object|\Rguj\LDM2\Models\DBM_MongoObject $object
      *
      * @return object
      */

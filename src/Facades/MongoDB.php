@@ -1,8 +1,8 @@
 <?php
 
-namespace CodexShaper\DBM\Facades;
+namespace Rguj\LDM2\Facades;
 
-use CodexShaper\DBM\Database\Drivers\MongoDB as MongoCleint;
+use Rguj\LDM2\Database\Drivers\MongoDB as MongoCleint;
 use Illuminate\Support\Facades\Facade;
 
 class MongoDB extends Facade

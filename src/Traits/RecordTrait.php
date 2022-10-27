@@ -1,10 +1,10 @@
 <?php
 
-namespace CodexShaper\DBM\Traits;
+namespace Rguj\LDM2\Traits;
 
-use CodexShaper\DBM\Database\Drivers\MongoDB\Type;
-use CodexShaper\DBM\Facades\Driver;
-use CodexShaper\DBM\Models\DBM_Collection;
+use Rguj\LDM2\Database\Drivers\MongoDB\Type;
+use Rguj\LDM2\Facades\Driver;
+use Rguj\LDM2\Models\DBM_Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Str;
@@ -147,7 +147,7 @@ trait RecordTrait
      *
      * @param mixed $records
      * @param \Illuminate\Support\Collection $fields
-     * @param \CodexShaper\DBM\Models\DBM_Object|\CodexShaper\DBM\Models\DBM_MongoObject $object
+     * @param \Rguj\LDM2\Models\DBM_Object|\Rguj\LDM2\Models\DBM_MongoObject $object
      * @param string $findValue
      *
      * @return array

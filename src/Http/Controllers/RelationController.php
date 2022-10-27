@@ -1,12 +1,14 @@
 <?php
 
-namespace CodexShaper\DBM\Http\Controllers;
+namespace Rguj\LDM2\Http\Controllers;
 
-use CodexShaper\DBM\Database\Schema\Table;
-use CodexShaper\DBM\Facades\Driver;
-use CodexShaper\DBM\Facades\Manager as DBM;
+use Rguj\LDM2\Database\Schema\Table;
+use Rguj\LDM2\Facades\Driver;
+use Rguj\LDM2\Facades\Manager as DBM;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
+
+use App\Http\Controllers\Controller;
 
 class RelationController extends Controller
 {

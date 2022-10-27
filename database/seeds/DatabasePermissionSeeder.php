@@ -1,6 +1,6 @@
 <?php
 
-use CodexShaper\DBM\Facades\Manager as DBM;
+use Rguj\LDM2\Facades\Manager as DBM;
 use Illuminate\Database\Seeder;
 
 class DatabasePermissionSeeder extends Seeder

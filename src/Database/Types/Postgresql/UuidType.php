@@ -1,8 +1,8 @@
 <?php
 
-namespace CodexShaper\DBM\Database\Types\Postgresql;
+namespace Rguj\LDM2\Database\Types\Postgresql;
 
-use CodexShaper\DBM\Database\Types\Type;
+use Rguj\LDM2\Database\Types\Type;
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 
 class UuidType extends Type

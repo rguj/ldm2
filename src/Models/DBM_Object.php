@@ -1,9 +1,9 @@
 <?php
 
-namespace CodexShaper\DBM\Models;
+namespace Rguj\LDM2\Models;
 
-use CodexShaper\DBM\Contracts\Relationships as RelationshipContract;
-use CodexShaper\DBM\Traits\Relationships;
+use Rguj\LDM2\Contracts\Relationships as RelationshipContract;
+use Rguj\LDM2\Traits\Relationships;
 use Illuminate\Database\Eloquent\Model;
 
 class DBM_Object extends Model implements RelationshipContract

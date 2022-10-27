@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\DBM\Models;
+namespace Rguj\LDM2\Models;
 
 use Jenssegers\Mongodb\Eloquent\Model;
 

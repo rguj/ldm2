@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\DBM\Database\Schema;
+namespace Rguj\LDM2\Database\Schema;
 
 use Doctrine\DBAL\Schema\Comparator;
 use Doctrine\DBAL\Schema\SchemaException;
@@ -44,7 +44,7 @@ class UpdateManager
      *
      * @param string $tableName
      *
-     * @return \CodexShaper\DBM\Database\Schema\Table
+     * @return \Rguj\LDM2\Database\Schema\Table
      */
     public static function listTableDetails($tableName)
     {

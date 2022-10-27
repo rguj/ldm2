@@ -1,8 +1,8 @@
 <?php
 
-namespace CodexShaper\DBM\Facades;
+namespace Rguj\LDM2\Facades;
 
-use CodexShaper\DBM\Manager as DatabaseManager;
+use Rguj\LDM2\Manager as DatabaseManager;
 use Illuminate\Support\Facades\Facade;
 
 class Manager extends Facade

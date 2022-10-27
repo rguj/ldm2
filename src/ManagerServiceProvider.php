@@ -1,18 +1,18 @@
 <?php
 
-namespace CodexShaper\DBM;
+namespace Rguj\LDM2;
 
-use CodexShaper\DBM\Commands\DatabaseAdmin;
-use CodexShaper\DBM\Commands\DatabaseBackup;
-use CodexShaper\DBM\Commands\DatabaseRestore;
-use CodexShaper\DBM\Commands\DatabaseSeed;
-use CodexShaper\DBM\Commands\InstallDatabaseManager;
-use CodexShaper\DBM\MongoDB\Passport\AuthCode;
-use CodexShaper\DBM\MongoDB\Passport\Bridge\RefreshToken;
-use CodexShaper\DBM\MongoDB\Passport\Bridge\RefreshTokenRepository;
-use CodexShaper\DBM\MongoDB\Passport\Client;
-use CodexShaper\DBM\MongoDB\Passport\PersonalAccessClient;
-use CodexShaper\DBM\MongoDB\Passport\Token;
+use Rguj\LDM2\Commands\DatabaseAdmin;
+use Rguj\LDM2\Commands\DatabaseBackup;
+use Rguj\LDM2\Commands\DatabaseRestore;
+use Rguj\LDM2\Commands\DatabaseSeed;
+use Rguj\LDM2\Commands\InstallDatabaseManager;
+use Rguj\LDM2\MongoDB\Passport\AuthCode;
+use Rguj\LDM2\MongoDB\Passport\Bridge\RefreshToken;
+use Rguj\LDM2\MongoDB\Passport\Bridge\RefreshTokenRepository;
+use Rguj\LDM2\MongoDB\Passport\Client;
+use Rguj\LDM2\MongoDB\Passport\PersonalAccessClient;
+use Rguj\LDM2\MongoDB\Passport\Token;
 use CodexShaper\Dumper\Contracts\Dumper;
 use CodexShaper\Dumper\Drivers\MongoDumper;
 use CodexShaper\Dumper\Drivers\MysqlDumper;

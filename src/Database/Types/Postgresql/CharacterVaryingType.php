@@ -1,8 +1,8 @@
 <?php
 
-namespace CodexShaper\DBM\Database\Types\Postgresql;
+namespace Rguj\LDM2\Database\Types\Postgresql;
 
-use CodexShaper\DBM\Database\Types\Common\VarCharType;
+use Rguj\LDM2\Database\Types\Common\VarCharType;
 
 class CharacterVaryingType extends VarCharType
 {

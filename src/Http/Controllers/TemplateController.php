@@ -1,9 +1,11 @@
 <?php
 
-namespace CodexShaper\DBM\Http\Controllers;
+namespace Rguj\LDM2\Http\Controllers;
 
-use CodexShaper\DBM\Facades\Manager as DBM;
+use Rguj\LDM2\Facades\Manager as DBM;
 use Illuminate\Http\Request;
+
+use App\Http\Controllers\Controller;
 
 class TemplateController extends Controller
 {

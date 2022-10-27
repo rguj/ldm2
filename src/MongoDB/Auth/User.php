@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\DBM\MongoDB\Auth;
+namespace Rguj\LDM2\MongoDB\Auth;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Auth\Passwords\CanResetPassword;

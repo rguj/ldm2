@@ -1,8 +1,8 @@
 <?php
 
-namespace CodexShaper\DBM\Models;
+namespace Rguj\LDM2\Models;
 
-use CodexShaper\DBM\Traits\Relationships;
+use Rguj\LDM2\Traits\Relationships;
 use Jenssegers\Mongodb\Eloquent\Model;
 
 class DBM_MongoMenu extends Model

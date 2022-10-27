@@ -1,11 +1,11 @@
 <?php
 
-namespace CodexShaper\DBM\Database\Drivers;
+namespace Rguj\LDM2\Database\Drivers;
 
-use CodexShaper\DBM\Database\Drivers\MongoDB\Index;
-use CodexShaper\DBM\Models\CollectionField;
-use CodexShaper\DBM\Models\DBM_Collection;
-use CodexShaper\DBM\Traits\MongoConnection;
+use Rguj\LDM2\Database\Drivers\MongoDB\Index;
+use Rguj\LDM2\Models\CollectionField;
+use Rguj\LDM2\Models\DBM_Collection;
+use Rguj\LDM2\Traits\MongoConnection;
 use Illuminate\Support\Facades\DB;
 
 class MongoDB

@@ -48,22 +48,22 @@
     },
     "autoload": {
         "psr-4": {
-            "Rguj\\LDM2\\": "src/"
+            "CodexShaper\\DBM\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rguj\\LDM2\\": "src/",
-            "Rguj\\LDM2\\Test\\": "tests/"
+            "CodexShaper\\DBM\\": "src/",
+            "CodexShaper\\DBM\\Test\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Rguj\\LDM2\\ManagerServiceProvider"
+                "CodexShaper\\DBM\\ManagerServiceProvider"
             ],
             "aliases": {
-                "LDM2": "Rguj\\LDM2\\Facades\\Manager"
+                "DBM": "CodexShaper\\DBM\\Facades\\Manager"
             }
         }
     }

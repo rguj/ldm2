@@ -45,7 +45,7 @@ return [
     |
      */
 
-    'namespace'            => '\CodexShaper\DBM',
+    'namespace'            => '\Rguj\LDM2',
 
     /*
     |-------------------------------------------------------------
@@ -56,7 +56,7 @@ return [
     |
      */
 
-    'controller_namespace' => '\CodexShaper\DBM\Http\Controllers',
+    'controller_namespace' => '\Rguj\LDM2\Http\Controllers',
 
     /*
     |-------------------------------------------------------------

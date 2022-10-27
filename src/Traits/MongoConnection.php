@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\DBM\Traits;
+namespace Rguj\LDM2\Traits;
 
 use Illuminate\Support\Facades\DB;
 use MongoDB\Client;

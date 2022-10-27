@@ -1,8 +1,8 @@
 <?php
 
-namespace CodexShaper\DBM\Commands;
+namespace Rguj\LDM2\Commands;
 
-use CodexShaper\DBM\Facades\Manager;
+use Rguj\LDM2\Facades\Manager;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 

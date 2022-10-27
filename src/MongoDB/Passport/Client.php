@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\DBM\MongoDB\Passport;
+namespace Rguj\LDM2\MongoDB\Passport;
 
 use Jenssegers\Mongodb\Eloquent\Model;
 

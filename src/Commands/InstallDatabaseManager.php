@@ -1,8 +1,8 @@
 <?php
 
-namespace CodexShaper\DBM\Commands;
+namespace Rguj\LDM2\Commands;
 
-use CodexShaper\DBM\ManagerServiceProvider;
+use Rguj\LDM2\ManagerServiceProvider;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Symfony\Component\Console\Input\InputOption;

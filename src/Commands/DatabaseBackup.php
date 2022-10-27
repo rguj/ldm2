@@ -1,8 +1,8 @@
 <?php
 
-namespace CodexShaper\DBM\Commands;
+namespace Rguj\LDM2\Commands;
 
-use CodexShaper\DBM\Facades\Driver;
+use Rguj\LDM2\Facades\Driver;
 use CodexShaper\Dumper\Contracts\Dumper;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;

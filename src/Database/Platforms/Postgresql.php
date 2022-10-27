@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\DBM\Database\Platforms;
+namespace Rguj\LDM2\Database\Platforms;
 
 use Illuminate\Support\Collection;
 

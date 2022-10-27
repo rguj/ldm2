@@ -1,8 +1,8 @@
 <?php
 
-namespace CodexShaper\DBM\Traits;
+namespace Rguj\LDM2\Traits;
 
-use CodexShaper\DBM\Facades\Manager as DBM;
+use Rguj\LDM2\Facades\Manager as DBM;
 
 trait RecordRelationship
 {
@@ -16,7 +16,7 @@ trait RecordRelationship
      *
      * @param mixed $records
      * @param \Illuminate\Support\Collection $browseFields
-     * @param \CodexShaper\DBM\Models\DBM_Object|\CodexShaper\DBM\Models\DBM_MongoObject $object
+     * @param \Rguj\LDM2\Models\DBM_Object|\Rguj\LDM2\Models\DBM_MongoObject $object
      *
      * @return mixed
      */
@@ -91,7 +91,7 @@ trait RecordRelationship
      *
      * @param \Illuminate\Support\Collection $fields
      * @param object $columns
-     * @param \CodexShaper\DBM\Models\DBM_Object|\CodexShaper\DBM\Models\DBM_MongoObject $object
+     * @param \Rguj\LDM2\Models\DBM_Object|\Rguj\LDM2\Models\DBM_MongoObject $object
      * @param  object $table
      *
      * @return void
@@ -132,7 +132,7 @@ trait RecordRelationship
      *
      * @param \Illuminate\Support\Collection $fields
      * @param object $columns
-     * @param \CodexShaper\DBM\Models\DBM_Object|\CodexShaper\DBM\Models\DBM_MongoObject $object
+     * @param \Rguj\LDM2\Models\DBM_Object|\Rguj\LDM2\Models\DBM_MongoObject $object
      * @param  object $table
      *
      * @return void
@@ -174,7 +174,7 @@ trait RecordRelationship
      * Remove Relationship.
      *
      * @param object $field
-     * @param \CodexShaper\DBM\Models\DBM_Object|\CodexShaper\DBM\Models\DBM_MongoObject $object
+     * @param \Rguj\LDM2\Models\DBM_Object|\Rguj\LDM2\Models\DBM_MongoObject $object
      * @param  object $table
      *
      * @return void

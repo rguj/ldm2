@@ -1,9 +1,11 @@
 <?php
 
-namespace CodexShaper\DBM\Http\Controllers;
+namespace Rguj\LDM2\Http\Controllers;
 
-use CodexShaper\DBM\Facades\Manager as DBM;
+use Rguj\LDM2\Facades\Manager as DBM;
 use Illuminate\Http\Request;
+
+use App\Http\Controllers\Controller;
 
 class ManagerController extends Controller
 {
@@ -16,6 +18,7 @@ class ManagerController extends Controller
      */
     public function assets(Request $request)
     {
+        dd( DBM::assets($request->path));
         return DBM::assets($request->path);
     }
 }

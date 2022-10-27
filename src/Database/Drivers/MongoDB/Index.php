@@ -1,8 +1,8 @@
 <?php
 
-namespace CodexShaper\DBM\Database\Drivers\MongoDB;
+namespace Rguj\LDM2\Database\Drivers\MongoDB;
 
-use CodexShaper\DBM\Database\Drivers\MongoDB\Traits\IndexTrait;
+use Rguj\LDM2\Database\Drivers\MongoDB\Traits\IndexTrait;
 use MongoDB\Collection;
 use MongoDB\Model\IndexInfo;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\DBM\Database\Schema;
+namespace Rguj\LDM2\Database\Schema;
 
 use Illuminate\Support\Facades\DB;
 

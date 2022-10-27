@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\DBM\Commands;
+namespace Rguj\LDM2\Commands;
 
 use CodexShaper\Dumper\Contracts\Dumper;
 use Illuminate\Console\Command;

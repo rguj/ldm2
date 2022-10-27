@@ -1,9 +1,9 @@
 <?php
 
-namespace CodexShaper\DBM\Database\Drivers\MongoDB;
+namespace Rguj\LDM2\Database\Drivers\MongoDB;
 
-use CodexShaper\DBM\Models\CollectionField;
-use CodexShaper\DBM\Models\DBM_Collection;
+use Rguj\LDM2\Models\CollectionField;
+use Rguj\LDM2\Models\DBM_Collection;
 
 class Collection
 {

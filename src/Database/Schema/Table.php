@@ -1,10 +1,10 @@
 <?php
 
-namespace CodexShaper\DBM\Database\Schema;
+namespace Rguj\LDM2\Database\Schema;
 
-use CodexShaper\DBM\Database\Types\Type;
-use CodexShaper\DBM\Facades\Driver;
-use CodexShaper\DBM\Facades\MongoDB;
+use Rguj\LDM2\Database\Types\Type;
+use Rguj\LDM2\Facades\Driver;
+use Rguj\LDM2\Facades\MongoDB;
 use Doctrine\DBAL\Schema\SchemaException;
 use Doctrine\DBAL\Schema\Table as DoctrineTable;
 use Illuminate\Database\Eloquent\Collection;

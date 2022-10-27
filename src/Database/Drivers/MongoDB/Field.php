@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\DBM\Database\Drivers\MongoDB;
+namespace Rguj\LDM2\Database\Drivers\MongoDB;
 
 class Field
 {
@@ -9,7 +9,7 @@ class Field
      *
      * @param string $collection
      *
-     * @return  \CodexShaper\DBM\Database\Drivers\MongoDB\Collection
+     * @return  \Rguj\LDM2\Database\Drivers\MongoDB\Collection
      */
     public static function create($collection, $clousure)
     {

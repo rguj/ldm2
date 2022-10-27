@@ -1,14 +1,16 @@
 <?php
 
-namespace CodexShaper\DBM\Http\Controllers;
+namespace Rguj\LDM2\Http\Controllers;
 
-use CodexShaper\DBM\Database\Schema\Table;
-use CodexShaper\DBM\Facades\Driver;
-use CodexShaper\DBM\Facades\Manager as DBM;
-use CodexShaper\DBM\Models\CollectionField;
-use CodexShaper\DBM\Models\DBM_Collection;
+use Rguj\LDM2\Database\Schema\Table;
+use Rguj\LDM2\Facades\Driver;
+use Rguj\LDM2\Facades\Manager as DBM;
+use Rguj\LDM2\Models\CollectionField;
+use Rguj\LDM2\Models\DBM_Collection;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
+
+use App\Http\Controllers\Controller;
 
 class DatabaseController extends Controller
 {
@@ -143,7 +145,7 @@ class DatabaseController extends Controller
     /**
      * Create|Update CRUD Field.
      *
-     * @param \CodexShaper\DBM\Models\DBM_Object|\CodexShaper\DBM\Models\DBM_MongoObject $object
+     * @param \Rguj\LDM2\Models\DBM_Object|\Rguj\LDM2\Models\DBM_MongoObject $object
      * @param array $column
      * @param array $fieldNames
      *
@@ -261,7 +263,7 @@ class DatabaseController extends Controller
 
             try {
                 // Update Template
-                (new \CodexShaper\DBM\Http\Controllers\TemplateController)->updateTemplates($request);
+                (new \Rguj\LDM2\Http\Controllers\TemplateController)->updateTemplates($request);
 
                 if (Table::exists($tableName)) {
                     if (Driver::isMongoDB()) {

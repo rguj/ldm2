@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\DBM\Database\Drivers\MongoDB\Traits;
+namespace Rguj\LDM2\Database\Drivers\MongoDB\Traits;
 
 use MongoDB\Model\IndexInfo;
 

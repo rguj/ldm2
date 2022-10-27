@@ -1,10 +1,12 @@
 <?php
 
-namespace CodexShaper\DBM\Http\Controllers;
+namespace Rguj\LDM2\Http\Controllers;
 
-use CodexShaper\DBM\Facades\Manager as DBM;
+use Rguj\LDM2\Facades\Manager as DBM;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Validator;
+
+use App\Http\Controllers\Controller;
 
 class MenuController extends Controller
 {

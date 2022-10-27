@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\DBM\Database\Types\Common;
+namespace Rguj\LDM2\Database\Types\Common;
 
 use Doctrine\DBAL\Types\StringType as DoctrineStringType;
 

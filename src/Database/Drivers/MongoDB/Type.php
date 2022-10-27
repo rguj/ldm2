@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\DBM\Database\Drivers\MongoDB;
+namespace Rguj\LDM2\Database\Drivers\MongoDB;
 
 use MongoDB\BSON\Binary;
 use MongoDB\BSON\Decimal128 as Decimal;

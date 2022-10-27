@@ -1,7 +1,8 @@
 <?php
 
-use CodexShaper\DBM\Facades\Manager as DBM;
+use Rguj\LDM2\Facades\Manager as DBM;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Str;
 
 class DatabaseMenuSeeder extends Seeder
 {
@@ -72,7 +73,7 @@ class DatabaseMenuSeeder extends Seeder
                 'parent' => 'database',
                 'route' => 'database',
                 'params' => null,
-                'controller' => '\CodexShaper\DBM\Http\Controllers\DatabaseController@index',
+                'controller' => '\Rguj\LDM2\Http\Controllers\DatabaseController@index',
                 'middleware' => null,
                 'target' => '_self',
                 'icon' => '<i class="fas fa-table"></i>',
@@ -85,7 +86,7 @@ class DatabaseMenuSeeder extends Seeder
                 'parent' => 'database',
                 'route' => 'crud',
                 'params' => null,
-                'controller' => '\CodexShaper\DBM\Http\Controllers\CrudController@index',
+                'controller' => '\Rguj\LDM2\Http\Controllers\CrudController@index',
                 'middleware' => null,
                 'target' => '_self',
                 'icon' => '<i class="fas fa-database"></i>',
@@ -98,7 +99,7 @@ class DatabaseMenuSeeder extends Seeder
                 'parent' => 'database',
                 'route' => 'permission',
                 'params' => null,
-                'controller' => '\CodexShaper\DBM\Http\Controllers\PermissionController@index',
+                'controller' => '\Rguj\LDM2\Http\Controllers\PermissionController@index',
                 'middleware' => null,
                 'target' => '_self',
                 'icon' => '<i class="fas fa-user-lock"></i>',
@@ -111,7 +112,7 @@ class DatabaseMenuSeeder extends Seeder
                 'parent' => 'database',
                 'route' => 'backup',
                 'params' => null,
-                'controller' => '\CodexShaper\DBM\Http\Controllers\BackupController@index',
+                'controller' => '\Rguj\LDM2\Http\Controllers\BackupController@index',
                 'middleware' => null,
                 'target' => '_self',
                 'icon' => '<i class="fas fa-sync"></i>',

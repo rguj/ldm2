@@ -1,8 +1,8 @@
 <?php
 
-namespace CodexShaper\DBM\Database\Types\Common;
+namespace Rguj\LDM2\Database\Types\Common;
 
-use CodexShaper\DBM\Database\Types\Type;
+use Rguj\LDM2\Database\Types\Type;
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 
 class TextType extends Type

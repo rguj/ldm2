@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\DBM\MongoDB\Passport\Bridge;
+namespace Rguj\LDM2\MongoDB\Passport\Bridge;
 
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Database\Connection;

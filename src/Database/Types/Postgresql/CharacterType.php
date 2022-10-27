@@ -1,8 +1,8 @@
 <?php
 
-namespace CodexShaper\DBM\Database\Types\Postgresql;
+namespace Rguj\LDM2\Database\Types\Postgresql;
 
-use CodexShaper\DBM\Database\Types\Common\CharType;
+use Rguj\LDM2\Database\Types\Common\CharType;
 
 class CharacterType extends CharType
 {

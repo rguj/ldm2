@@ -1,10 +1,12 @@
 <?php
 
-namespace CodexShaper\DBM\Http\Controllers;
+namespace Rguj\LDM2\Http\Controllers;
 
-use CodexShaper\DBM\Facades\Manager as DBM;
+use Rguj\LDM2\Facades\Manager as DBM;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
+
+use App\Http\Controllers\Controller;
 
 class CrudController extends Controller
 {
@@ -94,7 +96,7 @@ class CrudController extends Controller
      *
      * @param array $table
      *
-     * @return \CodexShaper\DBM\Models\DBM_Object|\CodexShaper\DBM\Models\DBM_MongoObject|false
+     * @return \Rguj\LDM2\Models\DBM_Object|\Rguj\LDM2\Models\DBM_MongoObject|false
      */
     public function addOrUpdateObject($table)
     {
@@ -128,7 +130,7 @@ class CrudController extends Controller
     /**
      * Create Menu.
      *
-     * @param \CodexShaper\DBM\Models\DBM_Object|\CodexShaper\DBM\Models\DBM_MongoObject $object
+     * @param \Rguj\LDM2\Models\DBM_Object|\Rguj\LDM2\Models\DBM_MongoObject $object
      *
      * @return true|false
      */
@@ -175,7 +177,7 @@ class CrudController extends Controller
     /**
      * Remove Menu.
      *
-     * @param \CodexShaper\DBM\Models\DBM_Object|\CodexShaper\DBM\Models\DBM_MongoObject $object
+     * @param \Rguj\LDM2\Models\DBM_Object|\Rguj\LDM2\Models\DBM_MongoObject $object
      *
      * @return true|false
      */
@@ -196,9 +198,9 @@ class CrudController extends Controller
      * Create|Update Object Field.
      *
      * @param array $column
-     * @param \CodexShaper\DBM\Models\DBM_Object|\CodexShaper\DBM\Models\DBM_MongoObject $object
+     * @param \Rguj\LDM2\Models\DBM_Object|\Rguj\LDM2\Models\DBM_MongoObject $object
      *
-     * @return \CodexShaper\DBM\Models\DBM_Field|\CodexShaper\DBM\Models\DBM_MongoField
+     * @return \Rguj\LDM2\Models\DBM_Field|\Rguj\LDM2\Models\DBM_MongoField
      */
     public function addOrUpdateField($column, $object)
     {

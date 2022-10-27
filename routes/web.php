@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+
 Route::group(['prefix' => trim(config('dbm.prefix')), 'namespace' => config('dbm.controller_namespace')], function () {
     //Database Table
     Route::get('/', 'DatabaseController@index');

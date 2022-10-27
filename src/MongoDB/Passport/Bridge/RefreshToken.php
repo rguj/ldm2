@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\DBM\MongoDB\Passport\Bridge;
+namespace Rguj\LDM2\MongoDB\Passport\Bridge;
 
 use League\OAuth2\Server\Entities\RefreshTokenEntityInterface;
 use League\OAuth2\Server\Entities\Traits\EntityTrait;

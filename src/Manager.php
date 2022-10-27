@@ -1,20 +1,20 @@
 <?php
 
-namespace CodexShaper\DBM;
+namespace Rguj\LDM2;
 
-use CodexShaper\DBM\Facades\Driver;
-use CodexShaper\DBM\Models\DBM_Field;
-use CodexShaper\DBM\Models\DBM_Menu;
-use CodexShaper\DBM\Models\DBM_MenuItem;
-use CodexShaper\DBM\Models\DBM_MongoField;
-use CodexShaper\DBM\Models\DBM_MongoMenu;
-use CodexShaper\DBM\Models\DBM_MongoMenuItem;
-use CodexShaper\DBM\Models\DBM_MongoObject;
-use CodexShaper\DBM\Models\DBM_MongoPermission;
-use CodexShaper\DBM\Models\DBM_MongoTemplate;
-use CodexShaper\DBM\Models\DBM_Object;
-use CodexShaper\DBM\Models\DBM_Permission;
-use CodexShaper\DBM\Models\DBM_Template;
+use Rguj\LDM2\Facades\Driver;
+use Rguj\LDM2\Models\DBM_Field;
+use Rguj\LDM2\Models\DBM_Menu;
+use Rguj\LDM2\Models\DBM_MenuItem;
+use Rguj\LDM2\Models\DBM_MongoField;
+use Rguj\LDM2\Models\DBM_MongoMenu;
+use Rguj\LDM2\Models\DBM_MongoMenuItem;
+use Rguj\LDM2\Models\DBM_MongoObject;
+use Rguj\LDM2\Models\DBM_MongoPermission;
+use Rguj\LDM2\Models\DBM_MongoTemplate;
+use Rguj\LDM2\Models\DBM_Object;
+use Rguj\LDM2\Models\DBM_Permission;
+use Rguj\LDM2\Models\DBM_Template;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Artisan;
@@ -57,7 +57,7 @@ class Manager
     public function assets($path)
     {
         $file = base_path(trim(config('dbm.resources_path'), '/').'/'.urldecode($path));
-
+        //dd(File::exists($file));
         if (File::exists($file)) {
             switch ($extension = pathinfo($file, PATHINFO_EXTENSION)) {
                 case 'js':
@@ -200,7 +200,7 @@ class Manager
     /**
      * Create new model instance.
      *
-     * @return \CodexShaper\DBM\Models\DBM_MongoObject|\CodexShaper\DBM\Models\DBM_Object
+     * @return \Rguj\LDM2\Models\DBM_MongoObject|\Rguj\LDM2\Models\DBM_Object
      */
     public function Object()
     {
@@ -214,7 +214,7 @@ class Manager
     /**
      * Create new model instance.
      *
-     * @return \CodexShaper\DBM\Models\DBM_MongoField|\CodexShaper\DBM\Models\DBM_Field
+     * @return \Rguj\LDM2\Models\DBM_MongoField|\Rguj\LDM2\Models\DBM_Field
      */
     public function Field()
     {
@@ -228,7 +228,7 @@ class Manager
     /**
      * Create new model instance.
      *
-     * @return \CodexShaper\DBM\Models\DBM_MongoPermission|\CodexShaper\DBM\Models\DBM_Permission
+     * @return \Rguj\LDM2\Models\DBM_MongoPermission|\Rguj\LDM2\Models\DBM_Permission
      */
     public function Permission()
     {
@@ -242,7 +242,7 @@ class Manager
     /**
      * Create new model instance.
      *
-     * @return \CodexShaper\DBM\Models\DBM_MongoTemplate|\CodexShaper\DBM\Models\DBM_Template
+     * @return \Rguj\LDM2\Models\DBM_MongoTemplate|\Rguj\LDM2\Models\DBM_Template
      */
     public function Template()
     {
@@ -256,7 +256,7 @@ class Manager
     /**
      * Create new model instance.
      *
-     * @return \CodexShaper\DBM\Models\DBM_MongoMenu|\CodexShaper\DBM\Models\DBM_Menu
+     * @return \Rguj\LDM2\Models\DBM_MongoMenu|\Rguj\LDM2\Models\DBM_Menu
      */
     public function Menu()
     {
@@ -270,7 +270,7 @@ class Manager
     /**
      * Create new model instance.
      *
-     * @return \CodexShaper\DBM\Models\DBM_MongoMenuItem|\CodexShaper\DBM\Models\DBM_MenuItem
+     * @return \Rguj\LDM2\Models\DBM_MongoMenuItem|\Rguj\LDM2\Models\DBM_MenuItem
      */
     public function MenuItem()
     {

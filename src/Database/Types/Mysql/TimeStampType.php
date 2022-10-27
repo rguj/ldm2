@@ -1,8 +1,8 @@
 <?php
 
-namespace CodexShaper\DBM\Database\Types\Mysql;
+namespace Rguj\LDM2\Database\Types\Mysql;
 
-use CodexShaper\DBM\Database\Types\Type;
+use Rguj\LDM2\Database\Types\Type;
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 
 class TimeStampType extends Type

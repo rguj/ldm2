@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\DBM\Contracts;
+namespace Rguj\LDM2\Contracts;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;

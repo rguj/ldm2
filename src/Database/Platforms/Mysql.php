@@ -1,8 +1,8 @@
 <?php
 
-namespace CodexShaper\DBM\Database\Platforms;
+namespace Rguj\LDM2\Database\Platforms;
 
-use CodexShaper\DBM\Database\Types\Type;
+use Rguj\LDM2\Database\Types\Type;
 use Illuminate\Support\Collection;
 
 abstract class Mysql extends Platform
