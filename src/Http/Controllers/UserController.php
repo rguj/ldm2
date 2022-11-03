@@ -60,7 +60,7 @@ class UserController extends Controller
             }
         }
 
-        return response()->json(['success' => false, 'error' => 'Unauthorised'], 401);
+        return response()->json(['success' => false, 'error' => 'Unauthorized'], 401);
     }
 
     /**

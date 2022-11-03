@@ -18,7 +18,7 @@ class ManagerController extends Controller
      */
     public function assets(Request $request)
     {
-        dd( DBM::assets($request->path));
+        //dd( DBM::assets($request->path));
         return DBM::assets($request->path);
     }
 }

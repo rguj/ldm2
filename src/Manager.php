@@ -387,7 +387,7 @@ class Manager
     }
 
     /**
-     * Check user aurization.
+     * Check user authorization.
      *
      * @param string $permission
      *
@@ -400,6 +400,7 @@ class Manager
         $prefix = $permission[0];
         $slug = $permission[1];
 
+        //dd($this->checkPermission($prefix, $slug));
         switch ($this->checkPermission($prefix, $slug)) {
             case 'not_logged_in':
                 return response()->json([

@@ -9,7 +9,7 @@ Route::group([
 ], function () {
 
     // Helpers Route
-    Route::get('assets', 'ManagerController@assets')->name('dbm.asset');
+    Route::get('assets', 'ManagerController@assets')->name('api.dbm.asset');
     // Database
     Route::get('/tables', 'TableController@all');
     Route::get('/table/{name}', 'TableController@getTable');

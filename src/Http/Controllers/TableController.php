@@ -17,10 +17,12 @@ class TableController extends Controller
      */
     public function all(Request $request)
     {
-        if ($request->ajax()) {
-            if (($response = DBM::authorize('database.browse')) !== true) {
-                return $response;
-            }
+        // if ($request->ajax()) {
+            //if (($response = DBM::authorize('database.browse')) !== true) {
+            //    return $response;
+            //}
+
+            // dd(DBM::authorize('database.browse'));
 
             try {
                 $perPage = (int) $request->perPage;
@@ -43,12 +45,13 @@ class TableController extends Controller
                     'collation' => config('dbm.collation', 'utf8mb4_unicode_ci'),
                 ]);
             } catch (\Exception $e) {
+                //dd($e);
                 return response()->json([
                     'success' => false,
                     'errors' => [$e->getMessage()],
                 ], 400);
             }
-        }
+        // }
 
         return response()->json(['success' => false]);
     }

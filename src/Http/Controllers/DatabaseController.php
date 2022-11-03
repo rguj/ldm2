@@ -21,6 +21,14 @@ class DatabaseController extends Controller
      */
     public function index()
     {
+        // dd(session()->all());
+        //dd(auth()->user());
+        //dump(DBM::checkPermission('database', 'browse'));
+        // dump(DBM::authorize('database.browse'));
+        //dump(auth()->user());
+
+        // dd(auth()->user()->userPermissions());
+
         return view('dbm::app');
     }
 
